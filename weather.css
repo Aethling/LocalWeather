@@ -1,0 +1,18 @@
+.main {
+	font-size: 25px;
+	height: 100%;
+	background-color: #5d77a0;
+	color: white;
+}
+li {
+	list-style-type: none;
+}
+html, body {
+	height: 100%;
+}
+.temp:hover {
+	color: red;
+}
+.temp {
+	cursor: pointer;
+}
