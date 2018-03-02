@@ -10,9 +10,9 @@ li {
 html, body {
 	height: 100%;
 }
-.temp:hover {
+span.symbol:hover {
 	color: red;
 }
-.temp {
+span.symbol {
 	cursor: pointer;
 }
