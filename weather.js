@@ -33,11 +33,11 @@ $(document).ready(function(){
 	$("div").on("click", function(){
 		if ($("span.symbol").text() == " C") {
 			var theTemp = parseFloat($(".temp").text());
-			var toFar = (theTemp*1.8)+32;
+			var toFar = Math.round(theTemp*1.8)+32;
 			$(".temp").text(toFar);
 			$(".symbol").text(" F");
 		} else {
-			var toCelc = (parseFloat($(".temp").text())-32)/1.8;
+			var toCelc = Math.round((parseFloat($(".temp").text())-32)/1.8);
 			$(".temp").text(toCelc);
 			$(".symbol").text(" C");
 		}
